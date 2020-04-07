@@ -1,0 +1,36 @@
+body{
+    color: red;
+    background-color: powderblue;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.myform{
+    text-align: left;
+    width: 70%;
+    margin-top: 5%;
+}
+input{
+    width: 200px;
+    outline: none;
+    border: 1px solid blue;
+    padding:10px;
+}
+button{
+    border-style: none;
+    width: 70px;
+    color: white;
+    padding: 11px;
+    border-radius: 3px;
+    border:2px solod pink;
+    outline: none;
+    cursor: pointer;
+    background-color: hsl(330, 82%, 63%);
+}
+button:hover{
+    background-color: hsl(305, 73%, 43%);
+}
+.text{
+    font-size: 20px;
+    color: black;
+}
