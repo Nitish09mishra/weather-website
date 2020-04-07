@@ -15,7 +15,7 @@ form.addEventListener('change', (event) => {
     p2.textContent = ''
 
     //fetching data from the url...
-    fetch('http://localhost:3000/weather?search=' + location).then((response) =>{
+    fetch('/weather?search=' + location).then((response) =>{
         response.json().then((data) => {
             if(data.error){
                 p0.textContent = data.error
