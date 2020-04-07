@@ -1,5 +1,3 @@
-console.log('its running')
-
 const form = document.querySelector('form')
 const search = document.querySelector('input')
 const p0 = document.querySelector('#p0')
